@@ -33,6 +33,7 @@ PARAMETER {
 	delm = 10 (ms)		 : delay mean }
 	sigi = 50 (ms)		 : delay std }
 	dt   = 0.01 (ms) 
+	v (mV)			 : fix by Tom McTavish added 20110504
 
 	amp  = 0.005    (nS)     : conductance 			}
 	tau  = 5 	(ms)     : synaptic time constant	} parameter of individual IPSCs
