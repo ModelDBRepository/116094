@@ -37,7 +37,7 @@ proc run_experiment() {
   xopen(filename)                       // model parameters
 
   print "Reading mitral cell template"
-  xopen("mitral.tem") 			// mitral cell template
+  load_file("mitral.tem") 			// mitral cell template
 
   print "Reading parameters"
 
