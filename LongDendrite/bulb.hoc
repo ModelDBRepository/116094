@@ -1,5 +1,5 @@
 
-// ¬¬ Initialisation ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+// Â¬Â¬ Initialisation Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬
 
 objref cvode, random, rand2, intensva[nmitx][nmity], delva[nmitx][nmity]
 cvode = new CVode(0)   		 // start with CVode inactive
@@ -13,7 +13,7 @@ objref outfile
 outfile = new File()
 strdef filename
 
-// ¬¬  Procedures ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+// Â¬Â¬  Procedures Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬
 // Create cells --------------------------------------------------------
 
 proc create_cells() { local i,j,ii,jj,k,p
@@ -76,7 +76,7 @@ proc random_init() { local i,j,ii,jj,k
   }
 }
 
-// ¬¬ Create the model ¬¬¬
+// Â¬Â¬ Create the model Â¬Â¬Â¬
 create_cells()
 
 
