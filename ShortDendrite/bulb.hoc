@@ -1,5 +1,5 @@
 
-// ¬¬ Initialisation ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+// Â¬Â¬ Initialisation Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬
 
 objref cvode, random
 cvode = new CVode(0)   		 // start with CVode inactive
@@ -117,7 +117,7 @@ proc random_init() { local i,j,ii,jj,k
   }
 }
 
-// ¬¬ Create the model ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+// Â¬Â¬ Create the model Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬Â¬
 create_cells()
 
 // set synaptic properties
