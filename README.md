@@ -100,11 +100,12 @@ For further information you can contact me at fdavid at olfac.univ-lyon1.fr
 Changelog
 ---------
 
-20110504 Bug fix in the ShortDendrite folder by Tom McTavish who noticed v was missing from the PARAMETER block of ipscGauss.mod
-20130327 Replacement of xopen (which contained arguments "mitral.tem" or "granule.tem") with load_file as suggested by Michael Hines for re-running of simulations without an error message.
-20130327 Added a top-level mosinit.hoc for an auto-launch demo (TMM).
-2022-05: Updated MOD files to compile with the latest neuron releases where ion variables used as STATE can not be declared as GLOBAL.
+20110504 Bug fix in the ShortDendrite folder by Tom McTavish who noticed v was missing from the PARAMETER block of ipscGauss.mod  
 
----
+20130327 Replacement of xopen (which contained arguments "mitral.tem" or "granule.tem") with load_file as suggested by Michael Hines for re-running of simulations without an error message.  
 
-2025-06-02: Converted README to Markdown.
+20130327 Added a top-level mosinit.hoc for an auto-launch demo (TMM).  
+
+202205 Updated MOD files to compile with the latest neuron releases where ion variables used as STATE can not be declared as GLOBAL.  
+
+20250602 Converted README to Markdown.
